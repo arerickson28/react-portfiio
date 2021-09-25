@@ -1,22 +1,48 @@
 // import logo from './logo.svg';
 import './App.css';
+
 import React from "react";
 import Banner from "./components/Banner/Banner";
 import Nav from "./components/Nav/Nav"
 import Foot from "./components/Foot/Foot"
+import About from "./components/About/About"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Skills from "./components/Skills/Skills"
+import Portfolio from "./components/Portfolio/Portfolio"
 
 function App() {
   return (
     
-    <>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌻</text></svg>"></link>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <Router>
       <Banner />
       <Nav />
+      
+        <Switch>
+        <Route exact path="/">
+            <About />
+          </Route>
+
+        <Route path="/about">
+            <About />
+          </Route>
+          
+          <Route path="/skills">
+            <Skills />
+          </Route>
+
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+
+        </Switch>
+    
       <Foot />
-    </>
+      
+    </Router>
   )
 
 }
 
 export default App;
+

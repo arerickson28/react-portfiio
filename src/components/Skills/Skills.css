@@ -1,0 +1,110 @@
+#displayIcons {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+}
+
+
+main {
+
+    display: flex ;
+    justify-content: center;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    /* display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60% ; */
+}
+
+main div {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    width: 60% ;
+}
+
+/* main div section {
+    padding-right: 20px ;
+    padding-left: 20px ;
+} */
+
+#tutorSkills {
+    display: flex ;
+    justify-content: center ;
+    margin-top: 60px ;
+    margin-bottom: 25px ;
+    
+
+}
+#displayIcons p {
+    width: 60% ;
+    text-align: center;
+}
+
+#tutorSkills p {
+    width: 60% ;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(106, 183, 235) ;
+}
+
+h3 {
+    /* color: green ; */
+    margin: 0px ;
+    margin-top: 15px ;
+}
+
+h5 {
+    margin: 0px ;
+}
+
+img {
+    width: 150px ;
+    border-radius: 100% ;
+    margin-left: 50px ;
+    margin-right: 50px ;
+}
+
+section {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+}
+
+#dataSkills {
+    margin-right: 20px ;
+}
+
+#webSkills {
+    margin-left: 20px ;
+}
+
+#dataSkills p {
+    font-size: 13px ;
+    margin: 0px ;
+    /* color: green ; */
+}
+
+#webSkills p {
+    font-size: 13px ;
+    margin: 0px ;
+    /* color: green ; */
+}
+
+hr {
+    width: 60% ;
+}
+
+#decorativeSunflower {
+    display: flex ;
+    align-items: center ;
+}
+
+#decorativeSunflower img {
+    width: 250px ;
+}
