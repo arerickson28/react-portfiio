@@ -12,13 +12,9 @@ main {
     justify-content: center;
     margin-top: 20px ;
     margin-bottom: 20px ;
-    /* display: flex ;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 60% ; */
 }
 
-main div {
+#skillsDiv {
     display: flex ;
     flex-direction: row;
     justify-content: center;
@@ -49,11 +45,11 @@ main div {
 }
 
 
-h1 {
+#skillsH1 {
     color: rgb(106, 183, 235) ;
 }
 
-h3 {
+#skillsDiv h3 {
     /* color: green ; */
     margin: 0px ;
     margin-top: 15px ;
@@ -70,7 +66,7 @@ img {
     margin-right: 50px ;
 }
 
-section {
+.skillsSection {
     display: flex ;
     flex-direction: column ;
     align-items: center;

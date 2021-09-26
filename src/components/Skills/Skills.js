@@ -5,7 +5,7 @@ import computer from "../../images/computer.png"
 function Skills() {
   return (
 <>
-    <section id="displayIcons">
+    <section className="skillsSection" id="displayIcons">
     <div id="codingLangs">
       <i class="fab fa-python fa-3x"></i>
       <i class="far fa-file-excel fa-3x"></i>
@@ -20,16 +20,16 @@ function Skills() {
   
     {/* <!-- <p>Have an idea for a web application but don't know how to make it a reality? I will communicate with you through each stage of development to manafest your vision!</p> --> */}
   
-    <h1>Full-Stack Web Development & Data Analytics</h1>
+    <h1 id="skillsH1">Full-Stack Web Development & Data Analytics</h1>
   
     <hr></hr>
     <p>My experience with the following tools comes from the University of Minnesota Data Visualization & Analytics and Full-Stack Web development bootcamps along with independent study and practice.</p>
   </section>
   
   <main>
-    <div>
-    <section id="dataSkills">
-      <img src={analytics}></img>
+    <div id="skillsDiv">
+    <section className="skillsSection" id="dataSkills">
+      <img src={analytics} alt="data-graphic"></img>
       <h1>Data</h1>
       <h3>Microsoft Excel</h3>
       <p>(Macros, Pivot Tables)</p>
@@ -67,8 +67,8 @@ function Skills() {
     </div> --> */}
   
     
-    <section id="webSkills">
-      <img src={computer}></img>
+    <section className="skillsSection"id="webSkills">
+      <img src={computer} alt="computer-graphic"></img>
       <h1>Web</h1>
       <h3>JavaScript</h3>
       <p>(JQuery, Leaflet)</p>
@@ -94,7 +94,7 @@ function Skills() {
   </div>
   </main>
   
-  <section id="tutorSkills">
+  <section className="skillsSection"id="tutorSkills">
     <h1>Mentoring & Tutoring</h1>
     <p>Throughout my journey of becoming a developer, I've had the fortune of terrific teachers and mentors guiding me on my way. In the spirit of paying it forward, I offer tutoring and/or mentoring sessions for beginner coders. I've always loved sharing the joy of learning and have firsthand experience from working as an academic tutor for College Tutors and serving as a T.A. for a rigorous economics course at the University Of Vermont.</p>
   </section>

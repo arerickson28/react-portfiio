@@ -17,4 +17,5 @@ main {
     width: 250px ;
     float: left ;
     margin: 15px ;
+    border-radius: 0%;
 }

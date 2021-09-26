@@ -15,7 +15,7 @@ function Portfolio() {
     <li>
       <div>
         <h3>Machine Learning-NBA</h3>
-        <p>Exploration in machine learning using NBA basketball <br></br> game data in effort to predict game outcomes.</p>
+        <p className="portfolioP">Exploration in machine learning using NBA basketball <br></br> game data in effort to predict game outcomes.</p>
         <table>
           <tr>
             <td><a href="https://github.com/arerickson28/Machine-Learning-NBA">Project Repository</a></td>
@@ -30,7 +30,7 @@ function Portfolio() {
     <li>
       <div>
         <h3>Weather Dashboard</h3>
-        <p>Search For Weather Conditions In  Any Major City</p>
+        <p className="portfolioP">Search For Weather Conditions In  Any Major City</p>
         <table>
           <tr>
             <td><a href="https://github.com/arerickson28/weather-dashboard">Project Repository</a></td>
@@ -45,7 +45,7 @@ function Portfolio() {
     <li>
       <div>
         <h3>Stock-Finder</h3>
-        <p>Search a company's stock information and <br></br> view relavent articles</p>
+        <p className="portfolioP">Search a company's stock information and <br></br> view relavent articles</p>
         <table>
           <tr>
             <td><a href="https://github.com/arerickson28/stock-finder">Project Repository</a></td>
@@ -85,7 +85,7 @@ function Portfolio() {
    <li>
       <div>
         <h3>Code Quiz</h3>
-        <p>A timed multiple choice quiz utilizing local storage. <br></br> Can you beat your high score?</p>
+        <p className="portfolioP">A timed multiple choice quiz utilizing local storage. <br></br> Can you beat your high score?</p>
         <table>
           <tr>
             <td><a href="https://github.com/arerickson28/code-quiz">Project Repository</a></td>
@@ -101,7 +101,7 @@ function Portfolio() {
     <li>
       <div>
         <h3>Tech Blog</h3>
-        <p>The tech blog is a full-stack application utilizing node, <br></br> express, sequelize, and handlebars</p>
+        <p className="portfolioP">The tech blog is a full-stack application utilizing node, <br></br> express, sequelize, and handlebars</p>
         <table>
           <tr>
             <td><a href="https://github.com/arerickson28/tech-blog">Project Repository</a></td>
