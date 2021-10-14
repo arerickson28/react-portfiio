@@ -19,7 +19,7 @@ function App() {
       <Nav />
       
         <Switch>
-        <Route exact path="/">
+        <Route exact path="/react-portfolio/">
             <About />
           </Route>
 
