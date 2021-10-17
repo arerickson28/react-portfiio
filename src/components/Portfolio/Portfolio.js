@@ -21,7 +21,7 @@ function Portfolio() {
             <td><a href="https://github.com/arerickson28/Machine-Learning-NBA">Project Repository</a></td>
           </tr>
           <tr>
-            {/* <!-- <td><a href="#">Deployed Project</a></td> --> */}
+            <td><a href="https://machine-learning-nba.herokuapp.com/">Deployed Project</a></td>
           </tr>
         </table> 
       </div>
