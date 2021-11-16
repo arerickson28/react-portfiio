@@ -104,3 +104,23 @@ hr {
 #decorativeSunflower img {
     width: 250px ;
 }
+
+main div {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60% ;
+}
+
+section {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+}
+
+h3 {
+    /* color: green ; */
+    margin: 0px ;
+    margin-top: 15px ;
+}

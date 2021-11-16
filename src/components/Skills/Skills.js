@@ -27,21 +27,54 @@ function Skills() {
   </section>
   
   <main>
-    <div id="skillsDiv">
+  <div>
+ 
+  <img src={analytics} alt="data-graphic"></img>
+ 
+   
+  <section id="dataSkills">
+  
+    <h3>Microsoft Excel</h3>
+    <p>(Macros, Pivot Tables)</p>
+    <p>____</p>
+  
+
+    <h3>Python</h3>
+    <p>(JupyterNotebook, Pandas, Matplotlib, <br></br>Flask, BeautifulSoup, Scikit-learn, Turtle)</p>
+    <p>____</p>
+    <h3>Tableau</h3>
+    <p>____</p>
+    <h3>Databases</h3>
+    <p>(PostGres SQL, MySQL, MongoDB)</p>
+    <p>____</p>
+    <h3>JavaScript</h3>
+    <p>(JQuery, Leaflet, React, Node, Express)</p>
+    <p>____</p>
+    <h3>HTML5/CSS</h3>
+    <p>(FlexBox, BootStrap)</p>
+
+
+  
+  </section>
+
+  <img src={computer} alt="computer-graphic"></img>
+
+ 
+</div>
+</main>
+
+
+  {/* <main> */}
+    {/* <div id="skillsDiv">
     <section className="skillsSection" id="dataSkills">
       <img src={analytics} alt="data-graphic"></img>
       <h1>Data</h1>
       <h3>Microsoft Excel</h3>
       <p>(Macros, Pivot Tables)</p>
       <p>____</p>
-      {/* <!-- <ul>
-        <li>Macros</li>
-        <li>Pivot Tables</li>
-      </ul> --> */}
-  
       <h3>Python</h3>
       <p>(JupyterNotebook, Pandas, Matplotlib, <br></br>Flask, BeautifulSoup, Scikit-learn, Turtle)</p>
-      <p>____</p>
+      <p>____</p> */}
       {/* <!-- <ul>
         <li>JupyterNotebook</li>
         <li>Pandas</li>
@@ -51,48 +84,48 @@ function Skills() {
         <li>Scikit-learn</li>
         <li>Turtle</li>
       </ul> --> */}
-      <h3>Tableau</h3>
+      {/* <h3>Tableau</h3>
       <p>____</p>
       <h3>SQL</h3>
-      <p>(PostGres, MySQL)</p>
+      <p>(PostGres, MySQL)</p> */}
       {/* <!-- <ul>
         <li>PostGres SQL</li>
       </ul> --> */}
   
     
-    </section>
+    {/* </section> */}
   
     {/* <!-- <div id="decorativeSunflower">
     <img src="../images/sunflower-clipart-md.png">
     </div> --> */}
   
     
-    <section className="skillsSection"id="webSkills">
+    {/* <section className="skillsSection"id="webSkills">
       <img src={computer} alt="computer-graphic"></img>
       <h1>Web</h1>
       <h3>JavaScript</h3>
       <p>(JQuery, Leaflet)</p>
-      <p>____</p>
+      <p>____</p> */}
       {/* <!-- <ul>
         <li>JQuery</li>
         <li>Leaflet.js</li>
       </ul> --> */}
-    <h3>React.js</h3>
+    {/* <h3>React.js</h3>
     <p>____</p>
     <h3>Node.js</h3>
-    <p>____</p>
+    <p>____</p> */}
   
-    <h3>HTML5/CSS</h3>
+    {/* <h3>HTML5/CSS</h3> */}
     {/* <!-- <h3>-CSS-</h3> --> */}
-    <p>(BootStrap)</p>
-    <p>____</p>
+    {/* <p>(BootStrap)</p>
+    <p>____</p> */}
     {/* <!-- <ul>
       <li>BootStrap</li>
     </ul> --> */}
-    <h3>Mongo DB</h3>
+    {/* <h3>Mongo DB</h3>
     </section>
   </div>
-  </main>
+  </main> */}
   
   <section className="skillsSection"id="tutorSkills">
     <h1>Mentoring & Tutoring</h1>
