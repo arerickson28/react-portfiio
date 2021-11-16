@@ -27,9 +27,9 @@ function Skills() {
   </section>
   
   <main>
-  <div>
+  <div id="skillsDiv">
  
-  <img src={analytics} alt="data-graphic"></img>
+  <img className="icons" src={analytics} alt="data-graphic"></img>
  
    
   <section id="dataSkills">
@@ -57,7 +57,7 @@ function Skills() {
   
   </section>
 
-  <img src={computer} alt="computer-graphic"></img>
+  <img className="icons" src={computer} alt="computer-graphic"></img>
 
  
 </div>

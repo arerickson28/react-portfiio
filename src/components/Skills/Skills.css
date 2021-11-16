@@ -14,12 +14,7 @@ main {
     margin-bottom: 20px ;
 }
 
-#skillsDiv {
-    display: flex ;
-    flex-direction: row;
-    justify-content: center;
-    width: 60% ;
-}
+
 
 /* main div section {
     padding-right: 20px ;
@@ -59,12 +54,12 @@ h5 {
     margin: 0px ;
 }
 
-img {
+/* img {
     width: 150px ;
     border-radius: 100% ;
     margin-left: 50px ;
     margin-right: 50px ;
-}
+} */
 
 .skillsSection {
     display: flex ;
@@ -74,6 +69,9 @@ img {
 
 #dataSkills {
     margin-right: 20px ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
 }
 
 #webSkills {
@@ -83,7 +81,6 @@ img {
 #dataSkills p {
     font-size: 13px ;
     margin: 0px ;
-    /* color: green ; */
 }
 
 #webSkills p {
@@ -105,22 +102,38 @@ hr {
     width: 250px ;
 }
 
-main div {
+/* main div {
     display: flex ;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 60% ;
+} */
+
+#skillsDiv {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60% ;
 }
 
-section {
+/* section {
     display: flex ;
     flex-direction: column ;
     align-items: center;
-}
+} */
 
 h3 {
     /* color: green ; */
     margin: 0px ;
     margin-top: 15px ;
+}
+
+.icons {
+    width: 150px ;
+    height: 150px;
+    border-radius: 100% ;
+    margin-left: 50px ;
+    margin-right: 50px ;
 }
